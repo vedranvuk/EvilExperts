@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.667,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\DelphiXP.manifest=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.949,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\XPAPPCODE.txt=C:\DelphiLib\Components\EvilExperts\Source\MsgWndAppExpertCode.txt</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.239,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\XPAppWiz.dproj=C:\DelphiLib\Components\EvilExperts\Source\EvilMsgWndAppExpert.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.503,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\XPAPPRES.rc=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.725,C:\Dev\Delphi\Components\EvilExperts\ProjectTemplateConsoleApp\Source\unitMsgWndAppExpert.pas=C:\Dev\Delphi\Components\EvilExperts\ProjectTemplateConsoleApp\Source\ConsoleApp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.341,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\XPAppExpt.pas=C:\DelphiLib\Components\EvilExperts\Source\MsgWndAppExpert.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,C:\DelphiLib\Demos\Delphi\VCL\ToolsAPI\XPAppWiz\DelphiXP.rc=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,=C:\DelphiLib\Components\EvilExperts\Source\New1.inc</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.288,C:\DelphiLib\Components\EvilExperts\Source\MsgWndAppExpertCode.inc=C:\DelphiLib\Components\EvilExperts\Source\New1.inc</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.232,C:\DelphiLib\Components\EvilExperts\Source\MsgWndAppExpertCode.txt=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.817,C:\DelphiLib\Components\EvilExperts\Source\MsgWndAppExpert.pas=C:\DelphiLib\Components\EvilExperts\Source\unitMsgWndAppExpert.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.362,C:\Dev\Delphi\Components\EvilExperts\ProjectTemplateConsoleApp\Source\EvilMsgWndAppExpert.dproj=C:\Dev\Delphi\Components\EvilExperts\ProjectTemplateConsoleApp\Source\ProjectTemplateConsoleApp.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

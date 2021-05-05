@@ -1,0 +1,60 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{D85B6832-117E-425B-8D3C-96A6C7655B6F}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ProjectTemplateConsoleApp\Source\ProjectTemplateConsoleApp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ProjectTemplateMsgWndConsoleApp\Source\ProjectTemplateMsgWndConsoleApp.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="EditorExpertCollection\Source\EditorExpertCollection.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ProjectTemplateConsoleApp">
+			<MSBuild Projects="ProjectTemplateConsoleApp\Source\ProjectTemplateConsoleApp.dproj"/>
+		</Target>
+		<Target Name="ProjectTemplateConsoleApp:Clean">
+			<MSBuild Targets="Clean" Projects="ProjectTemplateConsoleApp\Source\ProjectTemplateConsoleApp.dproj"/>
+		</Target>
+		<Target Name="ProjectTemplateConsoleApp:Make">
+			<MSBuild Targets="Make" Projects="ProjectTemplateConsoleApp\Source\ProjectTemplateConsoleApp.dproj"/>
+		</Target>
+		<Target Name="ProjectTemplateMsgWndConsoleApp">
+			<MSBuild Projects="ProjectTemplateMsgWndConsoleApp\Source\ProjectTemplateMsgWndConsoleApp.dproj"/>
+		</Target>
+		<Target Name="ProjectTemplateMsgWndConsoleApp:Clean">
+			<MSBuild Targets="Clean" Projects="ProjectTemplateMsgWndConsoleApp\Source\ProjectTemplateMsgWndConsoleApp.dproj"/>
+		</Target>
+		<Target Name="ProjectTemplateMsgWndConsoleApp:Make">
+			<MSBuild Targets="Make" Projects="ProjectTemplateMsgWndConsoleApp\Source\ProjectTemplateMsgWndConsoleApp.dproj"/>
+		</Target>
+		<Target Name="EditorExpertCollection">
+			<MSBuild Projects="EditorExpertCollection\Source\EditorExpertCollection.dproj"/>
+		</Target>
+		<Target Name="EditorExpertCollection:Clean">
+			<MSBuild Targets="Clean" Projects="EditorExpertCollection\Source\EditorExpertCollection.dproj"/>
+		</Target>
+		<Target Name="EditorExpertCollection:Make">
+			<MSBuild Targets="Make" Projects="EditorExpertCollection\Source\EditorExpertCollection.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ProjectTemplateConsoleApp;ProjectTemplateMsgWndConsoleApp;EditorExpertCollection"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ProjectTemplateConsoleApp:Clean;ProjectTemplateMsgWndConsoleApp:Clean;EditorExpertCollection:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ProjectTemplateConsoleApp:Make;ProjectTemplateMsgWndConsoleApp:Make;EditorExpertCollection:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
